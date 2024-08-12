@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Usuario/OneDrive/Documents/Portfolio/Portfolio/MLOps/mlruns/943135657182981222/fe6e69b39af7490e89490feace2c1f66/artifacts
+end_time: 1723494160371
+entry_point_name: ''
+experiment_id: '943135657182981222'
+lifecycle_stage: active
+run_id: fe6e69b39af7490e89490feace2c1f66
+run_name: Neural Network
+run_uuid: fe6e69b39af7490e89490feace2c1f66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723494158785
+status: 3
+tags: []
+user_id: Usuario

@@ -1,0 +1,46 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 2.15.1
+model_size_bytes: 60121
+model_uuid: d7fff776bc6e4e8783e30800891525be
+run_id: fe6e69b39af7490e89490feace2c1f66
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_payload.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "integer", "name": "Status of Existing Checking Account", "required":
+    true}, {"type": "long", "name": "Duration in Months", "required": true}, {"type":
+    "integer", "name": "Credit History", "required": true}, {"type": "integer", "name":
+    "Purpose", "required": true}, {"type": "long", "name": "Credit Amount", "required":
+    true}, {"type": "integer", "name": "Savings Account/Bonds", "required": true},
+    {"type": "integer", "name": "Present Employment Since", "required": true}, {"type":
+    "long", "name": "Installment Rate in Percentage of Disposable Income", "required":
+    true}, {"type": "integer", "name": "Personal Status and Sex", "required": true},
+    {"type": "integer", "name": "Other Debtors/Guarantors", "required": true}, {"type":
+    "long", "name": "Present Residence Since", "required": true}, {"type": "integer",
+    "name": "Property", "required": true}, {"type": "long", "name": "Age in Years",
+    "required": true}, {"type": "integer", "name": "Other Installment Plans", "required":
+    true}, {"type": "integer", "name": "Housing", "required": true}, {"type": "long",
+    "name": "Number of Existing Credits at This Bank", "required": true}, {"type":
+    "integer", "name": "Job", "required": true}, {"type": "long", "name": "Number
+    of People Liable to Provide Maintenance For", "required": true}, {"type": "integer",
+    "name": "Telephone", "required": true}, {"type": "integer", "name": "Foreign Worker",
+    "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2024-08-12 20:22:38.893164'

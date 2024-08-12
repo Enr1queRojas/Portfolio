@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Usuario/OneDrive/Documents/Portfolio/Portfolio/MLOps/mlruns/943135657182981222/e553dca33978416c94ad5ae83886cfcb/artifacts
+end_time: 1723494564706
+entry_point_name: ''
+experiment_id: '943135657182981222'
+lifecycle_stage: active
+run_id: e553dca33978416c94ad5ae83886cfcb
+run_name: Random Forest
+run_uuid: e553dca33978416c94ad5ae83886cfcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723494562909
+status: 3
+tags: []
+user_id: Usuario
